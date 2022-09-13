@@ -11,35 +11,46 @@
 }
 
 .hat__img {
+  position: absolute;
   width: 800px;
 }
 .hat__header {
   display: flex;
   justify-content: flex-end;
+  position: relative;
 }
 
 .hat__h1 {
-  font-size: 30px;
+  font-size: 60px;
   display: flex;
   justify-content: flex-end;
   align-items: flex-start;
+  position: relative;
+  right: 580px;
+  top: 40px;
 }
 .hat__h2 {
-  font-size: 70px;
+  font-size: 120px;
   color: #fff;
   font-weight: bold;
   display: flex;
   justify-content: flex-end;
   align-items: flex-start;
+  position: relative;
+  top: 60px;
+  right: 30px;
 }
 .hat__h3 {
-  font-size: 70px;
+  font-size: 120px;
   font-weight: bold;
   font-style: italic;
   font-family: Decor Cyrillic;
   display: flex;
   justify-content: flex-end;
   align-items: flex-start;
+  position: relative;
+  top: 70px;
+  right: 200px;
 }
 .box2 {
   margin-bottom: 35px;
@@ -53,10 +64,85 @@
   width: 50%;
 }
 .box__img2 {
+  position: relative;
+  left: 200px;
   height: 300px;
   width: 300px;
 }
 .box__img3 {
+  position: relative;
+  left: 200px;
   height: 300px;
   width: 300px;
+}
+.box3 {
+  margin-bottom: 35px;
+}
+.box3__container {
+  padding: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+.box__3 {
+  width: 50%;
+}
+.box__img4 {
+  position: relative;
+  left: 150px;
+  height: 200px;
+  width: 200px;
+}
+.box__img5 {
+  position: relative;
+  left: 150px;
+  height: 200px;
+  width: 200px;
+}
+.box__img6 {
+  position: relative;
+  left: 150px;
+  height: 200px;
+  width: 200px;
+}
+
+.categories {
+  margin: auto;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 60%;
+}
+
+.categories__box {
+  width: 300px;
+  height: 300px;
+}
+.box3__text {
+  margin-top: 20px;
+  width: 500px;
+  height: 100%;
+}
+
+.categories__text {
+  margin-top: 20px;
+}
+
+.categories__header {
+  font-weight: bold;
+  position: relative;
+  text-align: center;
+}
+
+.categories__button {
+  text-decoration: underline;
+  color: red;
+  border: none;
+  background-color: transparent;
+}
+.box__imgr {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
 }
